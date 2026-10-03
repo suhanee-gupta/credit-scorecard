@@ -1,0 +1,28 @@
+ticker,company,event,event_date,resolution_date
+DHFL,Dewan Housing Finance Corporation,Missed CP/NCD payments; RBI-referred CIRP from Nov 2019,2019-06-04,2021-09-29
+RELCAPITAL,Reliance Capital,NCD payment defaults; board superseded by RBI and CIRP from Dec 2021,2020-02-01,
+YESBANK,Yes Bank,RBI moratorium and reconstruction scheme (stress event),2020-03-05,2020-03-18
+ILFSTRANS,IL&FS Transportation Networks,Group-wide debt servicing defaults,2018-09-01,
+ILFSENGG,IL&FS Engineering and Construction,Group-wide debt servicing defaults,2018-09-01,
+SREINFRA,SREI Infrastructure Finance,Board superseded by RBI; CIRP,2021-10-04,
+JPASSOCIAT,Jaiprakash Associates,CIRP admitted by NCLT,2024-06-03,
+FRETAIL,Future Retail,Bank loan defaults; CIRP admitted by NCLT,2022-07-20,
+RCOM,Reliance Communications,CIRP admitted by NCLT,2019-06-21,
+JETAIRWAYS,Jet Airways,Operations suspended and CIRP admitted,2019-06-20,
+HDIL,Housing Development and Infrastructure,CIRP admitted by NCLT,2019-08-20,
+EDUCOMP,Educomp Solutions,CIRP admitted by NCLT,2017-05-30,
+UNITECH,Unitech,Deposit and debt defaults; board replaced by Government nominees,2019-12-20,
+COFFEEDAY,Coffee Day Enterprises,Defaults on loans and NCDs disclosed,2020-01-01,
+RPOWER,Reliance Power,Loan repayment defaults disclosed,2019-12-01,2024-06-30
+RELINFRA,Reliance Infrastructure,Loan repayment defaults disclosed,2019-12-01,2024-09-30
+GTLINFRA,GTL Infrastructure,Continuing defaults on restructured debt,2017-03-31,
+SIMPLEXINF,Simplex Infrastructures,Debt servicing defaults with consortium lenders,2020-06-01,
+GAYAPROJ,Gayatri Projects,CIRP admitted by NCLT,2022-11-01,
+MTNL,Mahanagar Telephone Nigam,Bank loan repayment defaults disclosed,2024-08-01,
+ESSARSHPNG,Essar Shipping,Debt servicing defaults; lender recovery actions,2018-03-31,
+SUPREMEINF,Supreme Infrastructure India,Debt servicing defaults; rated D,2017-03-31,
+GVKPIL,GVK Power and Infrastructure,Loan repayment defaults disclosed,2019-09-30,
+EROSMEDIA,Eros International Media,Debt servicing delays; rated D,2020-06-01,
+CCCL,Consolidated Construction Consortium,CIRP admitted by NCLT,2018-08-01,
+SUZLON,Suzlon Energy,Debt restructuring after defaults,2019-06-01,2020-06-30
+ALOKINDS,Alok Industries,CIRP admitted; resolved via Reliance-JM Financial plan,2017-07-18,2019-03-31
