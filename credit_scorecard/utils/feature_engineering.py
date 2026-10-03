@@ -37,6 +37,9 @@ def compute_features(fin: pd.DataFrame) -> pd.DataFrame:
     df = fin.sort_values(["ticker", "fiscal_year_end"]).copy()
 
     df["ebit"] = df["ebit"].fillna(df["pretax_income"] + df["interest_expense"].abs())
+    df["retained_earnings"] = df["retained_earnings"].fillna(
+        df["book_equity"] - df["share_capital"]
+    )
     df["working_capital"] = df["working_capital"].fillna(
         df["current_assets"] - df["current_liabilities"]
     )

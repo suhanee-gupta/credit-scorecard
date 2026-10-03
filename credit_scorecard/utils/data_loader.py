@@ -24,6 +24,7 @@ BALANCE_SHEET_FIELDS = {
     "Total Debt": "total_debt",
     "Stockholders Equity": "book_equity",
     "Retained Earnings": "retained_earnings",
+    "Capital Stock": "share_capital",
     "Working Capital": "working_capital",
     "Ordinary Shares Number": "shares_outstanding",
 }
