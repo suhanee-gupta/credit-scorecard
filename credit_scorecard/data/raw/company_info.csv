@@ -1,0 +1,122 @@
+ticker,name,sector,industry
+RELIANCE,Reliance Industries Limited,Energy,Oil & Gas Refining & Marketing
+TCS,Tata Consultancy Services Limited,Technology,Information Technology Services
+INFY,Infosys Limited,Technology,Information Technology Services
+HCLTECH,HCL Technologies Limited,Technology,Information Technology Services
+WIPRO,Wipro Limited,Technology,Information Technology Services
+TECHM,Tech Mahindra Limited,Technology,Information Technology Services
+ITC,ITC Limited,Consumer Defensive,Tobacco
+HINDUNILVR,Hindustan Unilever Limited,Consumer Defensive,Household & Personal Products
+NESTLEIND,Nestlé India Limited,Consumer Defensive,Packaged Foods
+BRITANNIA,Britannia Industries Limited,Consumer Defensive,Packaged Foods
+ASIANPAINT,Asian Paints Limited,Basic Materials,Specialty Chemicals
+TITAN,Titan Company Limited,Consumer Cyclical,Luxury Goods
+MARUTI,Maruti Suzuki India Limited,Consumer Cyclical,Auto Manufacturers
+M&M,Mahindra & Mahindra Limited,Consumer Cyclical,Auto Manufacturers
+BAJAJ-AUTO,Bajaj Auto Limited,Consumer Cyclical,Auto Manufacturers
+HEROMOTOCO,Hero MotoCorp Limited,Consumer Cyclical,Auto Manufacturers
+EICHERMOT,Eicher Motors Limited,Consumer Cyclical,Auto Manufacturers
+TVSMOTOR,TVS Motor Company Limited,Consumer Cyclical,Auto Manufacturers
+ASHOKLEY,Ashok Leyland Limited,Industrials,Farm & Heavy Construction Machinery
+LT,Larsen & Toubro Limited,Industrials,Engineering & Construction
+ULTRACEMCO,UltraTech Cement Limited,Basic Materials,Building Materials
+GRASIM,Grasim Industries Limited,Basic Materials,Building Materials
+SHREECEM,Shree Cement Limited,Basic Materials,Building Materials
+AMBUJACEM,Ambuja Cements Limited,Basic Materials,Building Materials
+JSWSTEEL,JSW Steel Limited,Basic Materials,Steel
+TATASTEEL,Tata Steel Limited,Basic Materials,Steel
+HINDALCO,Hindalco Industries Limited,Basic Materials,Aluminum
+VEDL,Vedanta Limited,Basic Materials,Other Industrial Metals & Mining
+HINDZINC,Hindustan Zinc Limited,Basic Materials,Other Industrial Metals & Mining
+SAIL,Steel Authority of India Limited,Basic Materials,Steel
+NMDC,NMDC Limited,Basic Materials,Steel
+COALINDIA,Coal India Limited,Energy,Thermal Coal
+NTPC,NTPC Limited,Utilities,Utilities - Regulated Electric
+POWERGRID,Power Grid Corporation of India Limited,Utilities,Utilities - Regulated Electric
+TATAPOWER,The Tata Power Company Limited,Utilities,Utilities - Independent Power Producers
+JSWENERGY,JSW Energy Limited,Utilities,Utilities - Independent Power Producers
+ADANIGREEN,Adani Green Energy Limited,Utilities,Utilities - Renewable
+ONGC,Oil and Natural Gas Corporation Limited,Energy,Oil & Gas Integrated
+BPCL,Bharat Petroleum Corporation Limited,Energy,Oil & Gas Refining & Marketing
+IOC,Indian Oil Corporation Limited,Energy,Oil & Gas Refining & Marketing
+GAIL,GAIL (India) Limited,Utilities,Utilities - Regulated Gas
+SUNPHARMA,Sun Pharmaceutical Industries Limited,Healthcare,Drug Manufacturers - Specialty & Generic
+DRREDDY,Dr. Reddy's Laboratories Limited,Healthcare,Drug Manufacturers - Specialty & Generic
+CIPLA,Cipla Limited,Healthcare,Drug Manufacturers - Specialty & Generic
+DIVISLAB,Divi's Laboratories Limited,Healthcare,Drug Manufacturers - Specialty & Generic
+LUPIN,Lupin Limited,Healthcare,Drug Manufacturers - Specialty & Generic
+APOLLOHOSP,Apollo Hospitals Enterprise Limited,Healthcare,Medical Care Facilities
+BHARTIARTL,Bharti Airtel Limited,Communication Services,Telecom Services
+ADANIPORTS,Adani Ports and Special Economic Zone Limited,Industrials,Marine Shipping
+ADANIENT,Adani Enterprises Limited,Energy,Thermal Coal
+DABUR,Dabur India Limited,Consumer Defensive,Household & Personal Products
+MARICO,Marico Limited,Consumer Defensive,Household & Personal Products
+GODREJCP,Godrej Consumer Products Limited,Consumer Defensive,Household & Personal Products
+COLPAL,Colgate-Palmolive (India) Limited,Consumer Defensive,Household & Personal Products
+PIDILITIND,Pidilite Industries Limited,Basic Materials,Specialty Chemicals
+HAVELLS,Havells India Limited,Industrials,Electrical Equipment & Parts
+VOLTAS,Voltas Limited,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+BERGEPAINT,Berger Paints India Limited,Basic Materials,Specialty Chemicals
+SIEMENS,Siemens Limited,Industrials,Specialty Industrial Machinery
+ABB,ABB India Limited,Industrials,Specialty Industrial Machinery
+BEL,Bharat Electronics Limited,Industrials,Aerospace & Defense
+HAL,Hindustan Aeronautics Limited,Industrials,Aerospace & Defense
+BOSCHLTD,Bosch Limited,Consumer Cyclical,Auto Parts
+MRF,MRF Limited,Consumer Cyclical,Auto Parts
+TRENT,Trent Limited,Consumer Cyclical,Apparel Retail
+DMART,Avenue Supermarts Limited,Consumer Defensive,Discount Stores
+PAGEIND,Page Industries Limited,Consumer Cyclical,Apparel Manufacturing
+TATACONSUM,Tata Consumer Products Limited,Consumer Defensive,Packaged Foods
+UPL,UPL Limited,Basic Materials,Agricultural Inputs
+SRF,SRF Limited,Industrials,Conglomerates
+DLF,DLF Limited,Real Estate,Real Estate - Development
+GODREJPROP,Godrej Properties Limited,Real Estate,Real Estate - Development
+IRCTC,Indian Railway Catering & Tourism Corporation Limited,Consumer Cyclical,Travel Services
+CONCOR,Container Corporation of India Limited,Industrials,Railroads
+INDIGO,InterGlobe Aviation Limited,Industrials,Airlines
+JUBLFOOD,Jubilant FoodWorks Limited,Consumer Cyclical,Restaurants
+MPHASIS,Mphasis Limited,Technology,Information Technology Services
+PERSISTENT,Persistent Systems Limited,Technology,Information Technology Services
+COFORGE,Coforge Limited,Technology,Information Technology Services
+BALKRISIND,Balkrishna Industries Limited,Consumer Cyclical,Auto Parts
+CUMMINSIND,Cummins India Limited,Industrials,Specialty Industrial Machinery
+NCC,NCC Limited,Industrials,Engineering & Construction
+IRB,IRB Infrastructure Developers Limited,Industrials,Infrastructure Operations
+NBCC,NBCC (India) Limited,Industrials,Engineering & Construction
+KEC,KEC International Limited,Industrials,Engineering & Construction
+PATELENG,Patel Engineering Limited,Industrials,Engineering & Construction
+SUZLON,Suzlon Energy Limited,Industrials,Specialty Industrial Machinery
+ALOKINDS,Alok Industries Limited,Consumer Cyclical,Textile Manufacturing
+CGPOWER,CG Power and Industrial Solutions Limited,Industrials,Electrical Equipment & Parts
+JINDALPOLY,Jindal Poly Films Limited,Consumer Cyclical,Packaging & Containers
+AVANTIFEED,Avanti Feeds Limited,Consumer Defensive,Packaged Foods
+GOKEX,Gokaldas Exports Limited,Consumer Cyclical,Apparel Manufacturing
+CORDSCABLE,Cords Cable Industries Limited,Industrials,Electrical Equipment & Parts
+ZEELEARN,Zee Learn Limited,Consumer Defensive,Education & Training Services
+WINSOME,Winsome Yarns Limited,Consumer Cyclical,Textile Manufacturing
+DIGJAMLMTD,Digjam Limited,Consumer Cyclical,Textile Manufacturing
+COFFEEDAY,Coffee Day Enterprises Limited,Consumer Cyclical,Restaurants
+GTLINFRA,GTL Infrastructure Limited,Technology,Communication Equipment
+RPOWER,Reliance Power Limited,Utilities,Utilities - Independent Power Producers
+RELINFRA,Reliance Infrastructure Limited,Utilities,Utilities - Independent Power Producers
+RCOM,Reliance Communications Limited,Communication Services,Telecom Services
+GAYAPROJ,Gayatri Projects Limited,Industrials,Engineering & Construction
+UNITECH,Unitech Limited,Real Estate,Real Estate - Diversified
+SIMPLEXINF,Simplex Infrastructures Limited,Industrials,Engineering & Construction
+EDUCOMP,Educomp Solutions Limited,Consumer Defensive,Education & Training Services
+JETAIRWAYS,Jet Airways (India) Limited,Industrials,Airlines
+MTNL,Mahanagar Telephone Nigam Limited,Communication Services,Telecom Services
+HDIL,Housing Development and Infrastructure Limited,Real Estate,Real Estate - Diversified
+ESSARSHPNG,Essar Shipping Limited,Industrials,Marine Shipping
+SUPREMEINF,Supreme Infrastructure India Limited,Industrials,Engineering & Construction
+GVKPIL,GVK Power & Infrastructure Limited,Utilities,Utilities - Independent Power Producers
+EROSMEDIA,Eros International Media Limited,Communication Services,Entertainment
+CCCL,Consolidated Construction Consortium Limited,Industrials,Engineering & Construction
+DHFL,,,
+RELCAPITAL,,,
+YESBANK,Yes Bank Limited,Financial Services,Banks - Regional
+ILFSTRANS,,,
+ILFSENGG,,,
+SREINFRA,,,
+JPASSOCIAT,,,
+FRETAIL,,,
