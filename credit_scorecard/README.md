@@ -5,7 +5,7 @@ built from annual statements published on Yahoo Finance.
 
 ## Data
 
-- **Financials** — balance sheet, income statement and cash flow for 125 NSE tickers via `yfinance`
+- **Financials** — balance sheet, income statement and cash flow for 121 NSE tickers via `yfinance`
   (`data/raw/financials.csv`). Yahoo serves roughly the last four fiscal years (FY2023–FY2026),
   and fiscal-year-end market capitalisation is converted to each company's reporting currency.
 - **Labels** — `data/raw/default_events.csv` lists curated default and stress events (CIRP
