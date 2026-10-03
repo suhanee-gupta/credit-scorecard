@@ -6,9 +6,9 @@ built from annual statements published on Yahoo Finance.
 ## Data
 
 - **Financials** — balance sheet, income statement and cash flow for 121 NSE tickers via `yfinance`
-  (`data/raw/financials.csv`). Yahoo serves roughly the last four fiscal years (FY2023–FY2026),
+  (`credit_scorecard/data/raw/financials.csv`). Yahoo serves roughly the last four fiscal years (FY2023–FY2026),
   and fiscal-year-end market capitalisation is converted to each company's reporting currency.
-- **Labels** — `data/raw/default_events.csv` lists curated default and stress events (CIRP
+- **Labels** — `credit_scorecard/data/raw/default_events.csv` lists curated default and stress events (CIRP
   admissions, disclosed payment defaults, RBI interventions). A firm-year is labelled as a default
   if its fiscal year ends no more than 24 months before the event and no later than the event's
   resolution date.
@@ -65,33 +65,34 @@ Most labelled defaults are already in insolvency or prolonged default, so their 
 deeply distressed. Discrimination is therefore much higher than for a forward-looking PD on
 performing borrowers, and these figures should not be read as early-warning performance.
 
-![ROC](plots/roc_curve.png)
-![Feature importance](plots/feature_importance.png)
-![Z-score](plots/z_score_by_status.png)
-![Ratings](plots/rating_distribution.png)
+![ROC](credit_scorecard/plots/roc_curve.png)
+![Feature importance](credit_scorecard/plots/feature_importance.png)
+![Z-score](credit_scorecard/plots/z_score_by_status.png)
+![Ratings](credit_scorecard/plots/rating_distribution.png)
 
 ## Outputs
 
 | File | Contents |
 |---|---|
-| `results/scorecard.csv` | Latest fiscal year per company: Z-score, zone, LR PD, XGBoost PD, grades, assigned rating |
-| `results/firm_year_scores.csv` | Features, labels and scores for every firm-year |
-| `results/metrics.json` | Test, CV and out-of-fold metrics, hyperparameters, default rates by zone and grade |
-| `results/lr_coefficients.csv` | Standardised coefficients and odds ratios |
-| `results/xgb_feature_importance.csv` | Gain-based importance |
-| `data/processed/features.csv` | Modelling table |
+| `credit_scorecard/results/scorecard.csv` | Latest fiscal year per company: Z-score, zone, LR PD, XGBoost PD, grades, assigned rating |
+| `credit_scorecard/results/firm_year_scores.csv` | Features, labels and scores for every firm-year |
+| `credit_scorecard/results/metrics.json` | Test, CV and out-of-fold metrics, hyperparameters, default rates by zone and grade |
+| `credit_scorecard/results/lr_coefficients.csv` | Standardised coefficients and odds ratios |
+| `credit_scorecard/results/xgb_feature_importance.csv` | Gain-based importance |
+| `credit_scorecard/data/processed/features.csv` | Modelling table |
 
 ## Running
 
 ```
 pip install -r credit_scorecard/requirements.txt
-python -m credit_scorecard.main            # uses cached data in data/raw
+python -m credit_scorecard.main            # uses cached data in credit_scorecard/data/raw
 python -m credit_scorecard.main --refresh  # re-downloads from Yahoo Finance
 ```
 
 ## Structure
 
 ```
+README.md
 credit_scorecard/
   data/          raw + processed CSVs
   models/        altman.py, logistic.py, xgb_model.py
