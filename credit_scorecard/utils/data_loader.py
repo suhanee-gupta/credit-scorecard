@@ -78,6 +78,21 @@ def _fiscal_year_end_prices(ticker: yf.Ticker, dates: pd.DatetimeIndex) -> pd.Se
     return close.reindex(dates, method="ffill", tolerance=pd.Timedelta(days=10))
 
 
+def _fx_to_inr(currency: str, dates: pd.DatetimeIndex) -> pd.Series:
+    """INR per unit of ``currency`` on each date (1.0 for INR)."""
+    if not currency or currency == "INR":
+        return pd.Series(1.0, index=dates)
+    fx = yf.Ticker(f"{currency}INR=X").history(
+        start=dates.min() - pd.Timedelta(days=30),
+        end=dates.max() + pd.Timedelta(days=5),
+    )
+    if fx.empty:
+        return pd.Series(np.nan, index=dates)
+    rate = fx["Close"]
+    rate.index = rate.index.tz_localize(None).normalize()
+    return rate.reindex(dates, method="ffill", tolerance=pd.Timedelta(days=10))
+
+
 def fetch_ticker(symbol: str, retries: int = 3, pause: float = 2.0) -> tuple[pd.DataFrame, dict]:
     """Return (annual financials, company metadata) for a single NSE symbol."""
     last_error = None
@@ -98,10 +113,15 @@ def fetch_ticker(symbol: str, retries: int = 3, pause: float = 2.0) -> tuple[pd.
             if fin.empty:
                 return pd.DataFrame(), {"ticker": symbol}
 
-            fin["price_fy_end"] = _fiscal_year_end_prices(ticker, fin.index).values
-            fin.insert(0, "ticker", symbol)
-
             info = ticker.info or {}
+            currency = info.get("financialCurrency") or "INR"
+            price = _fiscal_year_end_prices(ticker, fin.index)
+            fx = _fx_to_inr(currency, fin.index)
+            fin["price_fy_end"] = price.values
+            fin["market_cap"] = (fin["shares_outstanding"] * price / fx).values
+            fin.insert(0, "ticker", symbol)
+            fin.insert(1, "financial_currency", currency)
+
             meta = {
                 "ticker": symbol,
                 "name": info.get("longName") or info.get("shortName"),
