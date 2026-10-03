@@ -31,6 +31,7 @@ plt.rcParams.update(
         "axes.spines.top": False,
         "axes.spines.right": False,
         "axes.grid": True,
+        "axes.axisbelow": True,
         "grid.color": GRID,
         "grid.linewidth": 0.6,
         "xtick.color": TEXT_SECONDARY,
@@ -93,6 +94,9 @@ def z_score_plot(df: pd.DataFrame, path: Path) -> None:
             ax.scatter(x, z, s=14, color=color, alpha=0.7, edgecolors=SURFACE, linewidths=0.5)
             if len(z):
                 ax.hlines(z.median(), i - 0.28, i + 0.28, color=TEXT_PRIMARY, lw=1.5)
+            else:
+                ax.text(i, 0.7, "No defaulted firm-years", transform=ax.get_xaxis_transform(),
+                        ha="center", va="center", color=TEXT_SECONDARY, fontsize=9)
         lo, hi = zones[variant]
         for cut in (lo, hi):
             ax.axhline(cut, color=REFERENCE, lw=1, ls="--")
