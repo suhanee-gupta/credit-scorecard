@@ -18,11 +18,17 @@ def ks_statistic(y_true, score) -> float:
     return float(np.max(tpr - fpr))
 
 
+def discrimination(y_true, score) -> dict:
+    return {
+        "auc": float(roc_auc_score(y_true, score)),
+        "gini": float(gini(y_true, score)),
+        "ks": ks_statistic(y_true, score),
+    }
+
+
 def summarise(y_true, pd_pred) -> dict:
     return {
-        "auc": float(roc_auc_score(y_true, pd_pred)),
-        "gini": float(gini(y_true, pd_pred)),
-        "ks": ks_statistic(y_true, pd_pred),
+        **discrimination(y_true, pd_pred),
         "brier": float(brier_score_loss(y_true, pd_pred)),
         "n": int(len(y_true)),
         "defaults": int(np.sum(y_true)),

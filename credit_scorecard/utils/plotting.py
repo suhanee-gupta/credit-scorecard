@@ -25,7 +25,7 @@ plt.rcParams.update(
         "axes.edgecolor": GRID,
         "axes.labelcolor": TEXT_SECONDARY,
         "axes.titlecolor": TEXT_PRIMARY,
-        "axes.titleweight": "semibold",
+        "axes.titleweight": "bold",
         "axes.titlesize": 12,
         "axes.titlelocation": "left",
         "axes.spines.top": False,
@@ -104,7 +104,7 @@ def z_score_plot(df: pd.DataFrame, path: Path) -> None:
         ax.set_title(variant)
     axes[0].set_ylabel("Z-score (clipped to [-10, 15])")
     fig.suptitle("Altman Z-score by default status", x=0.07, ha="left",
-                 fontweight="semibold", color=TEXT_PRIMARY)
+                 fontweight="bold", color=TEXT_PRIMARY)
     fig.tight_layout()
     fig.savefig(path)
     plt.close(fig)
