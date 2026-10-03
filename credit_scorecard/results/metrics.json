@@ -1,0 +1,201 @@
+{
+  "sample": {
+    "firm_years": 447,
+    "companies": 113,
+    "default_firm_years": 61,
+    "train_companies": 85,
+    "test_companies": 28,
+    "labelled_defaults_without_data": [
+      "DHFL",
+      "FRETAIL",
+      "ILFSENGG",
+      "ILFSTRANS",
+      "JPASSOCIAT",
+      "RELCAPITAL",
+      "SREINFRA"
+    ]
+  },
+  "test": {
+    "logistic_regression": {
+      "auc": 0.9177631578947368,
+      "gini": 0.8355263157894737,
+      "ks": 0.8526315789473684,
+      "brier": 0.12064109238988921,
+      "n": 111,
+      "defaults": 16
+    },
+    "xgboost": {
+      "auc": 0.9092105263157895,
+      "gini": 0.8184210526315789,
+      "ks": 0.8421052631578947,
+      "brier": 0.10862118750810623,
+      "n": 111,
+      "defaults": 16
+    },
+    "altman_z": {
+      "auc": 0.9131578947368421,
+      "gini": 0.8263157894736841,
+      "ks": 0.7486842105263158
+    }
+  },
+  "cv": {
+    "logistic_regression_auc": 0.9397327748555101,
+    "xgboost_auc": 0.9784395090590298
+  },
+  "hyperparameters": {
+    "logistic_regression": {
+      "clf__C": 0.1
+    },
+    "xgboost": {
+      "subsample": 0.85,
+      "reg_lambda": 5.0,
+      "n_estimators": 200,
+      "min_child_weight": 3,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "gamma": 0.5,
+      "colsample_bytree": 0.8
+    }
+  },
+  "population_default_rate": 0.02,
+  "out_of_fold": {
+    "logistic_regression": {
+      "auc": 0.9028709759619468,
+      "gini": 0.8057419519238935,
+      "ks": 0.7617854412639089,
+      "brier": 0.07669501098760605,
+      "n": 447,
+      "defaults": 61
+    },
+    "xgboost": {
+      "auc": 0.9344899345961097,
+      "gini": 0.8689798691922195,
+      "ks": 0.7876072368979868,
+      "brier": 0.06925375550492567,
+      "n": 447,
+      "defaults": 61
+    }
+  },
+  "altman_zone_default_rates": [
+    {
+      "z_zone": "Distress",
+      "firm_years": 122,
+      "defaults": 51,
+      "default_rate": 0.4180327868852459
+    },
+    {
+      "z_zone": "Grey",
+      "firm_years": 77,
+      "defaults": 3,
+      "default_rate": 0.03896103896103896
+    },
+    {
+      "z_zone": "Safe",
+      "firm_years": 248,
+      "defaults": 7,
+      "default_rate": 0.028225806451612902
+    }
+  ],
+  "rating_default_rates": {
+    "lr": [
+      {
+        "rating": "AAA",
+        "firm_years": 6,
+        "defaults": 0,
+        "default_rate": 0.0
+      },
+      {
+        "rating": "AA",
+        "firm_years": 43,
+        "defaults": 0,
+        "default_rate": 0.0
+      },
+      {
+        "rating": "A",
+        "firm_years": 80,
+        "defaults": 1,
+        "default_rate": 0.0125
+      },
+      {
+        "rating": "BBB",
+        "firm_years": 153,
+        "defaults": 6,
+        "default_rate": 0.0392156862745098
+      },
+      {
+        "rating": "BB",
+        "firm_years": 105,
+        "defaults": 12,
+        "default_rate": 0.11428571428571428
+      },
+      {
+        "rating": "B",
+        "firm_years": 26,
+        "defaults": 18,
+        "default_rate": 0.6923076923076923
+      },
+      {
+        "rating": "CCC",
+        "firm_years": 18,
+        "defaults": 15,
+        "default_rate": 0.8333333333333334
+      },
+      {
+        "rating": "D",
+        "firm_years": 16,
+        "defaults": 9,
+        "default_rate": 0.5625
+      }
+    ],
+    "xgb": [
+      {
+        "rating": "AAA",
+        "firm_years": 27,
+        "defaults": 0,
+        "default_rate": 0.0
+      },
+      {
+        "rating": "AA",
+        "firm_years": 192,
+        "defaults": 1,
+        "default_rate": 0.005208333333333333
+      },
+      {
+        "rating": "A",
+        "firm_years": 103,
+        "defaults": 2,
+        "default_rate": 0.019417475728155338
+      },
+      {
+        "rating": "BBB",
+        "firm_years": 37,
+        "defaults": 6,
+        "default_rate": 0.16216216216216217
+      },
+      {
+        "rating": "BB",
+        "firm_years": 16,
+        "defaults": 5,
+        "default_rate": 0.3125
+      },
+      {
+        "rating": "B",
+        "firm_years": 16,
+        "defaults": 8,
+        "default_rate": 0.5
+      },
+      {
+        "rating": "CCC",
+        "firm_years": 28,
+        "defaults": 19,
+        "default_rate": 0.6785714285714286
+      },
+      {
+        "rating": "D",
+        "firm_years": 28,
+        "defaults": 20,
+        "default_rate": 0.7142857142857143
+      }
+    ]
+  }
+}

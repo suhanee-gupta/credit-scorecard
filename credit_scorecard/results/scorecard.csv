@@ -1,0 +1,114 @@
+ticker,name,sector,fiscal_year,default,z_score,z_model,z_zone,lr_pd,lr_rating,xgb_pd,xgb_rating,assigned_rating
+WINSOME,Winsome Yarns Limited,Consumer Cyclical,2026,0,-7.96693,Z (1968),Distress,0.677001,D,0.713706,D,D
+DIGJAMLMTD,Digjam Limited,Consumer Cyclical,2026,0,0.596917,Z (1968),Distress,0.0871757,B,0.633204,D,CCC
+EDUCOMP,Educomp Solutions Limited,Consumer Defensive,2025,1,-147.207,Z'' (1995),Distress,0.484435,D,0.631492,D,D
+JETAIRWAYS,Jet Airways (India) Limited,Industrials,2023,1,-34.6721,Z'' (1995),Distress,0.51103,D,0.618411,D,D
+GTLINFRA,GTL Infrastructure Limited,Technology,2026,1,-24.0693,Z'' (1995),Distress,0.427326,D,0.496517,D,D
+RCOM,Reliance Communications Limited,Communication Services,2026,1,-29.2812,Z'' (1995),Distress,0.233894,CCC,0.485237,D,CCC
+ALOKINDS,Alok Industries Limited,Consumer Cyclical,2026,0,-5.12118,Z (1968),Distress,0.495372,D,0.384031,CCC,D
+GVKPIL,GVK Power & Infrastructure Limited,Utilities,2026,1,-40.4657,Z'' (1995),Distress,0.790059,D,0.363401,CCC,D
+HDIL,Housing Development and Infrastructure Limited,Real Estate,2025,1,-16.3902,Z'' (1995),Distress,0.0650433,B,0.352989,CCC,CCC
+SUPREMEINF,Supreme Infrastructure India Limited,Industrials,2026,1,12.9563,Z'' (1995),Safe,0.00497984,BBB,0.325687,CCC,CCC
+MTNL,Mahanagar Telephone Nigam Limited,Communication Services,2026,1,-18.5148,Z'' (1995),Distress,0.204183,CCC,0.280184,CCC,CCC
+JINDALPOLY,Jindal Poly Films Limited,Consumer Cyclical,2026,0,1.02488,Z (1968),Distress,0.141676,CCC,0.266787,CCC,CCC
+UNITECH,Unitech Limited,Real Estate,2026,1,-6.09708,Z'' (1995),Distress,0.064963,B,0.246345,CCC,CCC
+RPOWER,Reliance Power Limited,Utilities,2026,0,0.0460545,Z'' (1995),Distress,0.0456309,B,0.200118,CCC,CCC
+ESSARSHPNG,Essar Shipping Limited,Industrials,2026,1,-69.9577,Z'' (1995),Distress,0.469303,D,0.144942,CCC,CCC
+INDIGO,InterGlobe Aviation Limited,Industrials,2026,0,1.24745,Z'' (1995),Grey,0.00818587,BBB,0.0762556,B,B
+SIEMENS,Siemens Limited,Industrials,2025,0,12.6323,Z (1968),Safe,0.0330386,BB,0.0611076,B,B
+GAYAPROJ,Gayatri Projects Limited,Industrials,2026,1,9.79722,Z'' (1995),Safe,0.0222242,BB,0.0173304,BB,BB
+INFY,Infosys Limited,Technology,2026,0,8.23612,Z'' (1995),Safe,0.00415753,BBB,0.0145039,BB,BBB
+JUBLFOOD,Jubilant FoodWorks Limited,Consumer Cyclical,2026,0,0.305945,Z'' (1995),Distress,0.0212692,BB,0.012495,BB,BB
+ADANIGREEN,Adani Green Energy Limited,Utilities,2026,0,0.251898,Z'' (1995),Distress,0.00371989,A,0.0108578,BBB,BBB
+SAIL,Steel Authority of India Limited,Basic Materials,2026,0,1.90826,Z (1968),Grey,0.0311993,BB,0.0075333,BBB,BB
+SIMPLEXINF,Simplex Infrastructures Limited,Industrials,2026,1,2.28909,Z'' (1995),Grey,0.0255676,BB,0.00722212,BBB,BB
+HINDUNILVR,Hindustan Unilever Limited,Consumer Defensive,2026,0,10.9996,Z (1968),Safe,0.012549,BB,0.00563237,BBB,BBB
+COFFEEDAY,Coffee Day Enterprises Limited,Consumer Cyclical,2026,1,6.42446,Z'' (1995),Safe,0.00526687,BBB,0.00533792,BBB,BBB
+IRB,IRB Infrastructure Developers Limited,Industrials,2026,0,1.95254,Z'' (1995),Grey,0.0289537,BB,0.00475806,BBB,BB
+GRASIM,Grasim Industries Limited,Basic Materials,2026,0,0.69105,Z (1968),Distress,0.01288,BB,0.00293942,A,BBB
+PATELENG,Patel Engineering Limited,Industrials,2026,0,2.93641,Z'' (1995),Safe,0.0176892,BB,0.00288876,A,BBB
+JSWENERGY,JSW Energy Limited,Utilities,2026,0,0.854882,Z'' (1995),Distress,0.00395977,A,0.0027919,A,A
+EROSMEDIA,Eros International Media Limited,Communication Services,2026,1,-1.44623,Z'' (1995),Distress,0.037651,BB,0.00278369,A,BB
+BHARTIARTL,Bharti Airtel Limited,Communication Services,2026,0,0.548907,Z'' (1995),Distress,0.0188714,BB,0.00270348,A,BBB
+RELINFRA,Reliance Infrastructure Limited,Utilities,2026,0,-1.12659,Z'' (1995),Distress,0.0268577,BB,0.00251281,A,BB
+ULTRACEMCO,UltraTech Cement Limited,Basic Materials,2026,0,4.13632,Z (1968),Safe,0.0176241,BB,0.00196163,A,BBB
+ASHOKLEY,Ashok Leyland Limited,Industrials,2026,0,1.76809,Z (1968),Distress,0.00535245,BBB,0.00190848,A,A
+POWERGRID,Power Grid Corporation of India Limited,Utilities,2026,0,0.745009,Z'' (1995),Distress,0.0179674,BB,0.00188792,A,BBB
+NESTLEIND,Nestlé India Limited,Consumer Defensive,2025,0,19.1173,Z (1968),Safe,0.00114001,AA,0.00184891,A,AA
+PERSISTENT,Persistent Systems Limited,Technology,2026,0,7.39769,Z'' (1995),Safe,0.00098888,AA,0.00178846,A,AA
+EICHERMOT,Eicher Motors Limited,Consumer Cyclical,2026,0,18.0167,Z (1968),Safe,0.00254846,A,0.00178846,A,A
+HEROMOTOCO,Hero MotoCorp Limited,Consumer Cyclical,2026,0,8.4751,Z (1968),Safe,0.00282199,A,0.00178846,A,A
+SUZLON,Suzlon Energy Limited,Industrials,2026,0,5.63262,Z (1968),Safe,0.000738217,AA,0.001788,A,AA
+CUMMINSIND,Cummins India Limited,Industrials,2026,0,29.9135,Z (1968),Safe,0.000616355,AA,0.001788,A,AA
+BRITANNIA,Britannia Industries Limited,Consumer Defensive,2026,0,20.8891,Z (1968),Safe,0.00422337,BBB,0.001748,A,A
+COLPAL,Colgate-Palmolive (India) Limited,Consumer Defensive,2026,0,20.1445,Z (1968),Safe,0.00435608,BBB,0.00148614,AA,A
+HINDZINC,Hindustan Zinc Limited,Basic Materials,2026,0,9.74522,Z (1968),Safe,0.00238857,A,0.00148459,AA,A
+IRCTC,Indian Railway Catering & Tourism Corporation Limited,Consumer Cyclical,2026,0,7.52121,Z'' (1995),Safe,0.00277255,A,0.00139367,AA,A
+ZEELEARN,Zee Learn Limited,Consumer Defensive,2026,0,0.485237,Z'' (1995),Distress,0.0254717,BB,0.00134442,AA,BB
+TATASTEEL,Tata Steel Limited,Basic Materials,2026,0,1.83212,Z (1968),Grey,0.0209616,BB,0.00134146,AA,BBB
+NMDC,NMDC Limited,Basic Materials,2026,0,4.83297,Z (1968),Safe,0.000735325,AA,0.00132021,AA,AA
+BALKRISIND,Balkrishna Industries Limited,Consumer Cyclical,2026,0,4.86314,Z (1968),Safe,0.00672514,BBB,0.00123507,AA,A
+SHREECEM,Shree Cement Limited,Basic Materials,2026,0,7.89767,Z (1968),Safe,0.00701787,BBB,0.00118344,AA,BBB
+MRF,MRF Limited,Consumer Cyclical,2026,0,4.53437,Z (1968),Safe,0.0102629,BBB,0.00118344,AA,BBB
+ABB,ABB India Limited,Industrials,2025,0,13.8889,Z (1968),Safe,0.00174681,A,0.0011828,AA,AA
+TECHM,Tech Mahindra Limited,Technology,2026,0,5.87863,Z'' (1995),Safe,0.006243,BBB,0.00116023,AA,A
+DABUR,Dabur India Limited,Consumer Defensive,2026,0,9.99076,Z (1968),Safe,0.00776647,BBB,0.00116023,AA,BBB
+BERGEPAINT,Berger Paints India Limited,Basic Materials,2026,0,12.0687,Z (1968),Safe,0.00499309,BBB,0.00116023,AA,A
+CIPLA,Cipla Limited,Healthcare,2026,0,9.91407,Z (1968),Safe,0.00178391,A,0.00116023,AA,AA
+HAL,Hindustan Aeronautics Limited,Industrials,2026,0,2.72278,Z (1968),Grey,0.00170908,A,0.00109821,AA,AA
+COFORGE,Coforge Limited,Technology,2026,0,4.8003,Z'' (1995),Safe,0.00361871,A,0.00108407,AA,A
+LUPIN,Lupin Limited,Healthcare,2026,0,6.38904,Z (1968),Safe,0.00139829,AA,0.00106687,AA,AA
+BAJAJ-AUTO,Bajaj Auto Limited,Consumer Cyclical,2026,0,6.16363,Z (1968),Safe,0.000805942,AA,0.00105696,AA,AA
+PAGEIND,Page Industries Limited,Consumer Cyclical,2026,0,19.7914,Z (1968),Safe,0.00628744,BBB,0.00105163,AA,A
+DRREDDY,Dr. Reddy's Laboratories Limited,Healthcare,2026,0,5.1947,Z (1968),Safe,0.00343665,A,0.00104822,AA,A
+AMBUJACEM,Ambuja Cements Limited,Basic Materials,2026,0,4.22983,Z (1968),Safe,0.00747094,BBB,0.00102475,AA,BBB
+NBCC,NBCC (India) Limited,Industrials,2026,0,2.08539,Z'' (1995),Grey,0.00466033,BBB,0.00101926,AA,A
+JSWSTEEL,JSW Steel Limited,Basic Materials,2026,0,2.66652,Z (1968),Grey,0.00852822,BBB,0.00100993,AA,BBB
+DIVISLAB,Divi's Laboratories Limited,Healthcare,2026,0,31.6513,Z (1968),Safe,0.000641877,AA,0.000978281,AA,AA
+GODREJPROP,Godrej Properties Limited,Real Estate,2026,0,2.00514,Z'' (1995),Grey,0.000884599,AA,0.00096551,AA,AA
+CGPOWER,CG Power and Industrial Solutions Limited,Industrials,2026,0,15.9029,Z (1968),Safe,0.000314768,AAA,0.000959323,AA,AA
+DMART,Avenue Supermarts Limited,Consumer Defensive,2026,0,8.79606,Z'' (1995),Safe,0.00229715,A,0.000959323,AA,A
+WIPRO,Wipro Limited,Technology,2026,0,6.25216,Z'' (1995),Safe,0.005377,BBB,0.000959323,AA,A
+SUNPHARMA,Sun Pharmaceutical Industries Limited,Healthcare,2026,0,12.509,Z (1968),Safe,0.00185687,A,0.000959323,AA,AA
+PIDILITIND,Pidilite Industries Limited,Basic Materials,2026,0,20.7609,Z (1968),Safe,0.00257821,A,0.000944115,AA,A
+KEC,KEC International Limited,Industrials,2026,0,2.39011,Z'' (1995),Grey,0.00926921,BBB,0.000909667,AA,BBB
+COALINDIA,Coal India Limited,Energy,2026,0,2.76725,Z (1968),Grey,0.00598756,BBB,0.000887019,AA,A
+BOSCHLTD,Bosch Limited,Consumer Cyclical,2026,0,10.1397,Z (1968),Safe,0.00425142,BBB,0.000797204,AA,A
+LT,Larsen & Toubro Limited,Industrials,2026,0,2.43304,Z'' (1995),Grey,0.00609693,BBB,0.000789362,AA,A
+TVSMOTOR,TVS Motor Company Limited,Consumer Cyclical,2026,0,3.54603,Z (1968),Safe,0.0106355,BBB,0.00077727,AA,BBB
+IOC,Indian Oil Corporation Limited,Energy,2026,0,2.21012,Z (1968),Grey,0.0209762,BB,0.000773336,AA,BBB
+GAIL,GAIL (India) Limited,Utilities,2026,0,3.79875,Z'' (1995),Safe,0.0170373,BB,0.00076614,AA,BBB
+NTPC,NTPC Limited,Utilities,2026,0,0.949499,Z'' (1995),Distress,0.0203821,BB,0.000741079,AA,BBB
+MARUTI,Maruti Suzuki India Limited,Consumer Cyclical,2026,0,8.02353,Z (1968),Safe,0.00568075,BBB,0.000722195,AA,A
+ONGC,Oil and Natural Gas Corporation Limited,Energy,2026,0,1.6864,Z (1968),Distress,0.0191302,BB,0.000717149,AA,BBB
+CONCOR,Container Corporation of India Limited,Industrials,2026,0,11.0199,Z'' (1995),Safe,0.00144816,AA,0.00070504,AA,AA
+TCS,Tata Consultancy Services Limited,Technology,2026,0,8.45782,Z'' (1995),Safe,0.000957484,AA,0.000672896,AA,AA
+ITC,ITC Limited,Consumer Defensive,2026,0,13.3684,Z (1968),Safe,0.00162275,A,0.000672896,AA,AA
+HCLTECH,HCL Technologies Limited,Technology,2026,0,7.06605,Z'' (1995),Safe,0.00338136,A,0.000672896,AA,A
+AVANTIFEED,Avanti Feeds Limited,Consumer Defensive,2026,0,21.1022,Z (1968),Safe,0.000516695,AA,0.000672896,AA,AA
+BEL,Bharat Electronics Limited,Industrials,2026,0,10.8393,Z (1968),Safe,0.00318943,A,0.000672896,AA,A
+ASIANPAINT,Asian Paints Limited,Basic Materials,2026,0,12.6463,Z (1968),Safe,0.00251677,A,0.000672896,AA,A
+MPHASIS,Mphasis Limited,Technology,2026,0,4.97833,Z'' (1995),Safe,0.00503901,BBB,0.00066906,AA,A
+SRF,SRF Limited,Industrials,2026,0,6.03324,Z (1968),Safe,0.0096972,BBB,0.000665705,AA,BBB
+TRENT,Trent Limited,Consumer Cyclical,2026,0,4.71278,Z'' (1995),Safe,0.00235805,A,0.000661923,AA,A
+GODREJCP,Godrej Consumer Products Limited,Consumer Defensive,2026,0,8.67359,Z (1968),Safe,0.0121775,BB,0.000657809,AA,BBB
+UPL,UPL Limited,Basic Materials,2026,0,1.70279,Z (1968),Distress,0.0170505,BB,0.00064028,AA,BBB
+DLF,DLF Limited,Real Estate,2026,0,3.86146,Z'' (1995),Safe,0.00831738,BBB,0.000629341,AA,BBB
+RELIANCE,Reliance Industries Limited,Energy,2026,0,2.03462,Z (1968),Grey,0.0110067,BBB,0.000603421,AA,BBB
+VOLTAS,Voltas Limited,Consumer Cyclical,2026,0,4.84967,Z (1968),Safe,0.00997423,BBB,0.000603421,AA,BBB
+BPCL,Bharat Petroleum Corporation Limited,Energy,2026,0,2.82263,Z (1968),Grey,0.00863759,BBB,0.000600954,AA,BBB
+HAVELLS,Havells India Limited,Industrials,2026,0,11.5632,Z (1968),Safe,0.00456024,BBB,0.000584463,AA,A
+TITAN,Titan Company Limited,Consumer Cyclical,2026,0,7.0801,Z (1968),Safe,0.000606864,AA,0.00057869,AA,AA
+TATAPOWER,The Tata Power Company Limited,Utilities,2026,0,1.04317,Z'' (1995),Distress,0.0153617,BB,0.000564054,AA,BBB
+CCCL,Consolidated Construction Consortium Limited,Industrials,2026,1,2.03244,Z'' (1995),Grey,0.00247709,A,0.000513598,AA,AA
+CORDSCABLE,Cords Cable Industries Limited,Industrials,2026,0,3.34031,Z (1968),Safe,0.0062635,BBB,0.000487662,AAA,A
+NCC,NCC Limited,Industrials,2026,0,2.59868,Z'' (1995),Grey,0.005351,BBB,0.000473367,AAA,A
+GOKEX,Gokaldas Exports Limited,Consumer Cyclical,2026,0,2.58464,Z (1968),Grey,0.00380174,A,0.000465116,AAA,A
+TATACONSUM,Tata Consumer Products Limited,Consumer Defensive,2026,0,6.63114,Z (1968),Safe,0.00946526,BBB,0.00045949,AAA,BBB
+HINDALCO,Hindalco Industries Limited,Basic Materials,2026,0,1.97781,Z (1968),Grey,0.0027654,A,0.000435797,AAA,A
+APOLLOHOSP,Apollo Hospitals Enterprise Limited,Healthcare,2026,0,2.59234,Z'' (1995),Grey,0.0128664,BB,0.000424496,AAA,BBB
+VEDL,Vedanta Limited,Basic Materials,2026,0,1.64649,Z (1968),Distress,0.00618712,BBB,0.000411505,AAA,A
+M&M,Mahindra & Mahindra Limited,Consumer Cyclical,2026,0,2.46966,Z (1968),Grey,0.00758532,BBB,0.000409397,AAA,A
+ADANIENT,Adani Enterprises Limited,Energy,2026,0,1.61598,Z (1968),Distress,0.0029795,A,0.000408011,AAA,A
+MARICO,Marico Limited,Consumer Defensive,2026,0,13.0873,Z (1968),Safe,0.00122551,AA,0.000389473,AAA,AA
+ADANIPORTS,Adani Ports and Special Economic Zone Limited,Industrials,2026,0,3.05863,Z'' (1995),Safe,0.000937009,AA,0.000372794,AAA,AA
